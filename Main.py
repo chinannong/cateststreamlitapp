@@ -1,4 +1,5 @@
 import streamlit as st
+from pymongo import MongoClient
 
 st.title("Hello World")
 if st.button("Magic"):
